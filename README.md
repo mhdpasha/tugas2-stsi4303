@@ -116,16 +116,3 @@ export default router;
    http://localhost:5173/
    ```
 4. Klik tombol **"Ambil Data Cuaca"** untuk melihat data tabel cuaca Jakarta.
-
----
-
-### 5. HASIL PENGUJIAN DAN ANALISA DATA
-1. **Analisa Respon API Open-Meteo**:
-   - Endpoint menghasilkan objek JSON yang berisi properti `hourly` dengan 2 array utama: `time` (format ISO-8601 UTC) dan `temperature_2m` (angka floating point derajat Celcius).
-2. **Pola Suhu di Jakarta**:
-   - Berdasarkan data 10 jam pertama dan 24 jam prakiraan, suhu udara di wilayah Jakarta berkisar antara **24.5 °C** pada dini hari/subuh hingga mencapai **33.8 °C** pada siang hari sekitar pukul 12:00 - 14:00.
-   - Peningkatan suhu terjadi bertahap seiring terbitnya matahari dan menurun kembali menjelang malam hari.
-3. **Penyajian Data**:
-   - 10 data pertama ditampilkan secara presisi dengan format tanggal/waktu yang mudah dipahami pengguna, memenuhi seluruh kriteria Tugas 2.
-
----
