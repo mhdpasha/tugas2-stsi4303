@@ -7,8 +7,8 @@
 - **Nama Mahasiswa** : Muhamad Pasha Albara
 - **NIM** : 054596122
 - **Program Studi** : Sistem Informasi
-- **Mata Kuliah** : STSI4303 - Pemrograman Berbasis Piranti Bergerak
-- **Institusi** : Universitas Terbuka (UT)
+- **Mata Kuliah** : STSI4303 - Pemrograman Berbasis Perangkat Bergerak
+- **Institusi** : Universitas Terbuka - Fakultas Sains Teknologi
 
 ---
 
@@ -19,7 +19,7 @@ Membuat proyek aplikasi mobile/web berbasis Ionic & Vue untuk menampilkan data c
 - **Field Data yang Ditampilkan**:
   1. `time` (Waktu pengukuran prakiraan cuaca per jam)
   2. `temperature_2m` (Suhu udara permukaan per jam dalam satuan °C)
-  
+
 ---
 
 ### 2. STRUKTUR DIREKTORI PROYEK
