@@ -19,13 +19,7 @@ Membuat proyek aplikasi mobile/web berbasis Ionic & Vue untuk menampilkan data c
 - **Field Data yang Ditampilkan**:
   1. `time` (Waktu pengukuran prakiraan cuaca per jam)
   2. `temperature_2m` (Suhu udara permukaan per jam dalam satuan °C)
-- **Ketentuan Desain (Standar Antislop UI)**:
-  - Antarmuka berorientasi data riil, bebas dari ornamen klise AI (tanpa emoji dekoratif, tanpa gradien gelap artifisial, dan tanpa shadow mengambang).
-  - Menggunakan palet netral terarah (Slate & Off-white) dengan kontras teks tinggi.
-  - Sesuai kaidah arsitektur Modul 4 Aktivitas 8 UT: memisahkan pemanggilan data ke dalam class service `EndPointAccess` menggunakan library Axios.
-  - Default menampilkan 10 data pertama (sesuai catatan soal), dengan opsi interaktif untuk melihat 24 jam atau seluruh data, serta pilihan mode Tabel dan Kartu.
-  - Format angka dan waktu menggunakan `font-variant-numeric: tabular-nums` dan font monospace untuk presisi perbandingan data per jam.
-
+  
 ---
 
 ### 2. STRUKTUR DIREKTORI PROYEK
