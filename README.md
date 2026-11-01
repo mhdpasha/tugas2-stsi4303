@@ -54,7 +54,7 @@ C:\PraktikumUT\STSI4303\Tugas2
 
 ---
 
-### 3. PENJELASAN KODE SUMBER UTAMA
+### 3. PENJELASAN KODE
 
 #### A. Service Akses API (`src/services/EndPointAccess/index.ts`)
 Sesuai modul praktikum UT, pemanggilan API dienkapsulasi dalam class `EndPointAccess` agar kode bersifat *reusable* dan *scalable*:
@@ -129,28 +129,3 @@ export default router;
    - 10 data pertama ditampilkan secara presisi dengan format tanggal/waktu yang mudah dipahami pengguna, memenuhi seluruh kriteria Tugas 2.
 
 ---
-
-### 6. PANDUAN NASKAH / SKRIP REKAMAN VIDEO PRESENTASI
-
-#### Bagian 1: Perkenalan Identitas (Durasi: ~30 detik)
-> *"Halo, perkenalkan nama saya **Muhamad Pasha Albara**, NIM **054596122**, mahasiswa Program Studi Sistem Informasi di Universitas Terbuka. Pada video ini, saya akan mendemonstrasikan hasil pengerjaan Tugas 2 Praktikum Pemrograman Berbasis Piranti Bergerak (STSI4303)."*
-
-#### Bagian 2: Penjelasan Langkah Praktik (Durasi: ~1 - 1.5 menit)
-> *"Pada tugas ini, kita diminta membuat aplikasi untuk mengambil dan menampilkan data prakiraan cuaca Jakarta dari Open-Meteo API. Berikut langkah-langkah yang saya lakukan:*
-> 1. *Menginisialisasi proyek berbasis Vue TypeScript dan mengintegrasikannya dengan framework Ionic Vue (`@ionic/vue`) dan Axios sesuai modul 4 praktikum.*
-> 2. *Membuat service class `EndPointAccess` di folder `src/services/EndPointAccess/index.ts` agar pemanggilan REST API terenkapsulasi secara rapi dan reusable.*
-> 3. *Membuat halaman `Home.vue` dengan komponen Ionic seperti `ion-page`, `ion-header`, `ion-content`, dan `ion-button`.*
-> 4. *Menerapkan method `ambilData()` untuk melakukan GET request ke API Open-Meteo, lalu memetakan atribut `time` dan `temperature_2m` ke dalam format tabel dan card."*
-
-#### Bagian 3: Demo Aplikasi & Analisa (Durasi: ~1.5 - 2 menit)
-> *(Tunjukkan layar browser `http://localhost:5173/`)*
-> *"Berikut adalah tampilan aplikasi yang telah saya bangun:*
-> - *Di bagian atas terdapat identitas mahasiswa dan informasi endpoint API.*
-> - *Ketika tombol **'Ambil Data Cuaca'** diklik, aplikasi menghubungi API Open-Meteo secara asynchronous.*
-> - *Setelah data berhasil diambil, muncul ringkasan statistik seperti rata-rata suhu, suhu minimum, dan maksimum.*
-> - *Di bawahnya tersaji tabel data per jam yang menampilkan atribut `time` dan `temperature_2m` secara rapi.*
-> - *Secara default, aplikasi menampilkan 10 data pertama sesuai catatan soal, namun pengguna juga dapat memilih untuk melihat 24 jam atau semua data, serta berpindah ke mode Card Grid.*
-> - *Dari analisa data cuaca Jakarta ini, terlihat suhu terendah sekitar 25 °C pada waktu malam/dini hari dan naik hingga 33 °C di siang hari."*
-
-#### Bagian 4: Kata-kata Penutup (Durasi: ~30 detik)
-> *"Demikian presentasi dan demonstrasi Tugas 2 STSI4303 yang telah saya selesaikan. Seluruh kode program telah berjalan dengan baik tanpa error dan memenuhi seluruh ketentuan praktikum. Terima kasih atas perhatiannya, salam sejahtera bagi kita semua."*
